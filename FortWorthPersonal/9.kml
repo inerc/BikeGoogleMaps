@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- Data derived from:
+       Ed Knittel - || tastypopsicle.com
+       Feel free to use this file for your own purposes.
+       Just leave the comments and credits when doing so.
+-->
+  <Document>
+    <name>Chicago Transit Map</name>
+    <description>Chicago Transit Authority train lines</description>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc">
+          <IconStyle>
+            <color>ff3644db</color>
+            <scale>1</scale>
+            <Icon>
+              <href>https://github.com/inerc/BikeGoogleMaps/raw/master/Ellipse.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>1</scale>
+          </LabelStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h3>$[name]</h3>]]></text>
+          </BalloonStyle>
+        </Style>
+
+    <Placemark>
+      <name>Blue Line</name>
+      <styleUrl>#blueLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+                          -97.3258889,32.7329062,0
+                          -97.3258825,32.7329059,0
+                          -97.3258759,32.7434894,0
+                          -97.3258142,32.7437669,0
+                          -97.3257873,32.7449671,0
+                          -97.3257605,32.7456236,0
+                          -97.325731,32.7458311,0
+                          -97.3255459,32.7459665,0
+                          -97.3250578,32.7462237,0
+                          -97.3248566,32.7465214,0
+                          -97.3249385,32.7468395,0
+                          -97.3256452,32.7479427,0
+                          -97.3264351,32.7491157,0
+                          -97.3264472,32.7494722,0
+                          -97.3263949,32.7498602,0
+                          -97.3264794,32.750203,0
+                          -97.3266953,32.7505211,0
+                          -97.3269662,32.7507196,0
+                          -97.3275617,32.7509046,0
+                          -97.3278205,32.7511099,0
+                          -97.3282805,32.7517957,0
+                          -97.3267718,32.7525243,0
+                          -97.3288894,32.7556259,0
+                          -97.3319578,32.7541349,0
+                          -97.3298335,32.7510388,0
+                          -97.3283006,32.7517799,0
+                          -97.3278419,32.7511031,0
+                          -97.3275871,32.7508911,0
+                          -97.3269702,32.7506971,0
+                          -97.32671,32.7505008,0
+                          -97.3265008,32.7501873,0
+                          -97.3264257,32.7498376,0
+                          -97.3264874,32.7494067,0
+                          -97.3264847,32.7491947,0
+                          -97.3264633,32.7490977,0
+                          -97.3249773,32.7468711,0
+                          -97.3249666,32.74672,0
+                          -97.3250766,32.7463838,0
+                          -97.325259,32.7462034,0
+                          -97.3257257,32.7459845,0
+                          -97.3258973,32.7457296,0
+                          -97.3259309,32.7436834,0
+                          -97.3259027,32.7433924,0
+                          -97.3258889,32.7329062,0
+                        </coordinates>
+      </LineString>
+    </Placemark>
+    </Document>
+</kml>
