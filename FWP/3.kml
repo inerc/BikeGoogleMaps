@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- Data derived from:
+       Ed Knittel - || tastypopsicle.com
+       Feel free to use this file for your own purposes.
+       Just leave the comments and credits when doing so.
+-->
+  <Document>
+    <name>Chicago Transit Map</name>
+    <description>Chicago Transit Authority train lines</description>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>ffb57631</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc">
+          <IconStyle>
+            <color>ff3644db</color>
+            <scale>1</scale>
+            <Icon>
+              <href>https://github.com/inerc/BikeGoogleMaps/raw/master/Ellipse.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>1</scale>
+          </LabelStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h3>$[name]</h3>]]></text>
+          </BalloonStyle>
+        </Style>
+
+    <Placemark>
+      <name>Blue Line</name>
+      <styleUrl>#blueLine</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+                        -97.3288894,32.7556259,0
+                        -97.3319578,32.7541349,0
+                        -97.3298335,32.7510388,0
+                        -97.3274785,32.7521825,0
+                        -97.3267718,32.7525243,0
+                        -97.3273109,32.7533003,0
+                        -97.3288894,32.7556259,0
+                      </coordinates>
+      </LineString>
+    </Placemark>
+    </Document>
+</kml>
