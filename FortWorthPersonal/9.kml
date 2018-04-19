@@ -11,7 +11,7 @@
 
     <Style id="blueLine">
       <LineStyle>
-        <color>ffff0000</color>
+        <color>ffb57631</color>
         <width>2</width>
       </LineStyle>
     </Style>
