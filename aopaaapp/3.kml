@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- Data derived from:
+       Ed Knittel - || tastypopsicle.com
+       Feel free to use this file for your own purposes.
+       Just leave the comments and credits when doing so.
+-->
+  <Document>
+    <name>Chicago Transit Map</name>
+    <description>Chicago Transit Authority train lines</description>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>ffb57631</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc">
+          <IconStyle>
+            <color>ff3644db</color>
+            <scale>1</scale>
+            <Icon>
+              <href>https://github.com/inerc/BikeGoogleMaps/raw/master/Ellipse.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>1</scale>
+          </LabelStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h3>$[name]</h3>]]></text>
+          </BalloonStyle>
+        </Style>
+
+        <Placemark>
+          <name>Blue Line</name>
+          <styleUrl>#blueLine</styleUrl>
+          <LineString>
+            <altitudeMode>relative</altitudeMode>
+           <coordinates>
+           -77.0397593,38.8799658,0
+                           -77.0398558,38.8799074,0
+                           -77.0398505,38.8795628,0
+                           -77.0398585,38.8794459,0
+                           -77.0397003,38.879235,0
+                           -77.0393086,38.8789865,0
+                           -77.0383887,38.8784833,0
+                           -77.0373533,38.8778402,0
+                           -77.0363448,38.8771386,0
+                           -77.0352505,38.8763284,0
+                           -77.034242,38.875418,0
+                           -77.0339576,38.87518,0
+                           -77.0338074,38.8750797,0
+                           -77.0327775,38.8740273,0
+                           -77.0316348,38.8727995,0
+                           -77.0304761,38.8713836,0
+                           -77.0295105,38.8699887,0
+                           -77.0283465,38.8680173,0
+                           -77.0269624,38.8656115,0
+                           -77.0257394,38.8633601,0
+                           -77.0249347,38.8618606,0
+                           -77.0240549,38.8601563,0
+                           -77.0232556,38.8587152,0
+                           -77.0230947,38.8584771,0
+                           -77.0228855,38.8583601,0
+                           -77.022628,38.8583267,0
+                           -77.0223759,38.8583726,0
+                           -77.0221667,38.8585105,0
+                           -77.0220647,38.8587235,0
+                           -77.0220701,38.8591287,0
+                           -77.0221184,38.8605364,0
+                           -77.022231,38.8624913,0
+                           -77.0222686,38.8640368,0
+                           -77.0223276,38.8669815,0
+                           -77.0224724,38.8687064,0
+                           -77.0226548,38.8694916,0
+                           -77.0231966,38.8710537,0
+                           -77.0236419,38.8723693,0
+                           -77.0239959,38.8731962,0
+                           -77.0244143,38.8739521,0
+                           -77.0249991,38.874779,0
+                           -77.0253531,38.8752426,0
+                           -77.0262168,38.8761656,0
+                           -77.0273648,38.8771762,0
+                           -77.0281587,38.877811,0
+                           -77.0290921,38.8785084,0
+                           -77.0311521,38.8800159,0
+                           -77.0331262,38.8814399,0
+                           -77.0334695,38.8817155,0
+                           -77.0336358,38.8817657,0
+                           -77.0338986,38.8817323,0
+                           -77.0341347,38.8816404,0
+                           -77.0343224,38.881298,0
+                           -77.0344404,38.8808804,0
+                           -77.034537,38.8805922,0
+                           -77.0346872,38.8803625,0
+                           -77.0349232,38.8801537,0
+                           -77.0351324,38.880041,0
+                           -77.0356421,38.8798948,0
+                           -77.0367954,38.8798907,0
+                           -77.0381258,38.8798948,0
+                           -77.0387695,38.8800118,0
+                           -77.0390807,38.8800953,0
+                           -77.0393489,38.8800786,0
+                           -77.0397593,38.8799658,0
+           </coordinates>
+          </LineString>
+        </Placemark>
+
+    <Placemark>
+            <name>San Francisco Bay Trail</name>
+            <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+            <Point>
+              <coordinates>
+                -122.58441,37.98632,0
+              </coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Sausalito Ferry</name>
+            <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+            <Point>
+              <coordinates>
+                -122.584314149,37.9864773786,0
+              </coordinates>
+            </Point>
+          </Placemark>
+  </Document>
+</kml>

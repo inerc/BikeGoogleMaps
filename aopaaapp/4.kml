@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<!-- Data derived from:
+       Ed Knittel - || tastypopsicle.com
+       Feel free to use this file for your own purposes.
+       Just leave the comments and credits when doing so.
+-->
+  <Document>
+    <name>Chicago Transit Map</name>
+    <description>Chicago Transit Authority train lines</description>
+
+    <Style id="blueLine">
+      <LineStyle>
+        <color>ffb57631</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc">
+          <IconStyle>
+            <color>ff3644db</color>
+            <scale>1</scale>
+            <Icon>
+              <href>https://github.com/inerc/BikeGoogleMaps/raw/master/Ellipse.png</href>
+            </Icon>
+          </IconStyle>
+          <LabelStyle>
+            <scale>1</scale>
+          </LabelStyle>
+          <BalloonStyle>
+            <text><![CDATA[<h3>$[name]</h3>]]></text>
+          </BalloonStyle>
+        </Style>
+
+        <Placemark>
+          <name>Blue Line</name>
+          <styleUrl>#blueLine</styleUrl>
+          <LineString>
+            <altitudeMode>relative</altitudeMode>
+           <coordinates>
+                        -77.0039,38.90563,0
+                        -77.00587,38.90566,0
+                        -77.005877,38.903775,0
+                        -77.00589,38.90182,0
+                        -77.00633,38.90114,0
+                        -77.00679,38.90003,0
+                        -77.00768,38.89746,0
+                        -77.00754,38.89742,0
+           </coordinates>
+          </LineString>
+        </Placemark>
+                <Placemark>
+                  <name>Blue Line</name>
+                  <styleUrl>#blueLine</styleUrl>
+                  <LineString>
+                    <altitudeMode>relative</altitudeMode>
+                   <coordinates>
+                                -77.00205,38.90963,0
+                                            -77.00241,38.9089,0
+                                            -77.00287,38.90821,0
+                                            -77.00394,38.90529,0
+                                            -77.00437,38.9038,0
+                                            -77.00364,38.90381,0
+                                            -77.00364,38.90051,0
+                                            -77.003614,38.898899,0
+                                            -77.00445,38.89907,0
+                                            -77.00532,38.89682,0
+                                            -77.00745,38.89728,0
+                   </coordinates>
+                  </LineString>
+                </Placemark>
+    <Placemark>
+              <name>Blue Line</name>
+              <styleUrl>#blueLine</styleUrl>
+              <LineString>
+                <altitudeMode>relative</altitudeMode>
+               <coordinates>
+                            -77.003898,38.905616,0
+                            -77.004118,38.904722,0
+               </coordinates>
+              </LineString>
+            </Placemark>
+    <Placemark>
+              <name>Blue Line</name>
+              <styleUrl>#blueLine</styleUrl>
+              <LineString>
+                <altitudeMode>relative</altitudeMode>
+               <coordinates>
+                    -77.00183,38.91001,0
+                    -77.000583,38.912503,0
+                    -77.001184,38.912524,0
+                    -76.99666,38.92098,0
+                    -76.99637,38.92128,0
+                    -76.99635,38.92175,0
+                    -76.99623,38.92192,0
+               </coordinates>
+              </LineString>
+            </Placemark>
+        <Placemark>
+                  <name>Blue Line</name>
+                  <styleUrl>#blueLine</styleUrl>
+                  <LineString>
+                    <altitudeMode>relative</altitudeMode>
+                   <coordinates>
+                         -76.99484,38.92549,0
+                         -76.99484,38.92514,0
+                         -76.99514,38.92407,0
+                         -76.99561,38.92295,0
+                         -76.99607,38.92209,0
+                         -76.996232,38.921928,0
+                   </coordinates>
+                  </LineString>
+                </Placemark>
+        <Placemark>
+                  <name>Blue Line</name>
+                  <styleUrl>#blueLine</styleUrl>
+                  <LineString>
+                    <altitudeMode>relative</altitudeMode>
+                   <coordinates>
+                        -76.994958,38.925667,0
+                        -76.994988,38.932371,0
+                   </coordinates>
+                  </LineString>
+                </Placemark>
+          <Placemark>
+                    <name>Blue Line</name>
+                    <styleUrl>#blueLine</styleUrl>
+                    <LineString>
+                      <altitudeMode>relative</altitudeMode>
+                     <coordinates>
+                           -76.99499,38.93237,0
+                                      -76.99498,38.93247,0
+                                      -76.99469,38.93253,0
+                                      -76.99484,38.93328,0
+                                      -76.994934,38.933559,0
+                     </coordinates>
+                    </LineString>
+                  </Placemark>
+            <Placemark>
+                      <name>Blue Line</name>
+                      <styleUrl>#blueLine</styleUrl>
+                      <LineString>
+                        <altitudeMode>relative</altitudeMode>
+                       <coordinates>
+                            -77.00478,38.94564,0
+                                        -77.00107,38.9471,0
+                                        -77.0008,38.9471,0
+                                        -77.00068,38.94704,0
+                                        -77.00033,38.94636,0
+                                        -76.99908,38.9434,0
+                                        -76.99895,38.94343,0
+                                        -76.99817,38.94165,0
+                                        -76.99582,38.93592,0
+                                        -76.9957,38.93554,0
+                                        -76.995526,38.934641,0
+                                        -76.995472,38.934575,0
+                                        -76.995438,38.934438,0
+                                        -76.995417,38.934324,0
+                                        -76.995338,38.934293,0
+                                        -76.99526,38.93423,0
+                                        -76.995146,38.934047,0
+                                        -76.995067,38.933918,0
+                                        -76.99503,38.93376,0
+                       </coordinates>
+                      </LineString>
+                    </Placemark>
+
+            <Placemark>
+                      <name>Blue Line</name>
+                      <styleUrl>#blueLine</styleUrl>
+                      <LineString>
+                        <altitudeMode>relative</altitudeMode>
+                       <coordinates>
+                            -77.00478,38.94564,0
+                                        -77.005695,38.94633,0
+                                        -77.005786,38.946447,0
+                                        -77.005861,38.946564,0
+                                        -77.006,38.94681,0
+                                        -77.006446,38.949485,0
+                                        -77.00654,38.94972,0
+                                        -77.00772,38.95136,0
+                                        -77.007809,38.951612,0
+                                        -77.00784,38.95187,0
+                                        -77.00785,38.9524,0
+                                        -77.00922,38.95239,0
+                                        -77.01589,38.9522,0
+                                        -77.01618,38.95706,0
+                                        -77.01618,38.96992,0
+                                        -77.01491,38.96993,0
+                       </coordinates>
+                      </LineString>
+                    </Placemark>
+
+             <Placemark>
+                       <name>Blue Line</name>
+                       <styleUrl>#blueLine</styleUrl>
+                       <LineString>
+                         <altitudeMode>relative</altitudeMode>
+                        <coordinates>
+                             -77.00785,38.9524,0
+                                         -77.0078516,38.9535019,0
+                                         -77.0159197,38.9532016,0
+                        </coordinates>
+                       </LineString>
+                     </Placemark>
+
+            <Placemark>
+                      <name>Blue Line</name>
+                      <styleUrl>#blueLine</styleUrl>
+                      <LineString>
+                        <altitudeMode>relative</altitudeMode>
+                       <coordinates>
+                                   -77.01455,38.96996,0
+                                   -77.01396,38.96997,0
+                                   -77.01411,38.97032,0
+                                   -77.01506,38.97138,0
+                                   -77.01564,38.97218,0
+                                   -77.016183,38.973094,0
+                                   -77.01485,38.97487,0
+                                   -77.01626,38.97503,0
+                                   -77.01626,38.97531,0
+                                   -77.01618,38.97554,0
+                                   -77.01577,38.97619,0
+                                   -77.01839,38.9782,0
+                                   -77.01882,38.97843,0
+                       </coordinates>
+                      </LineString>
+                    </Placemark>
+
+            <Placemark>
+                      <name>Blue Line</name>
+                      <styleUrl>#blueLine</styleUrl>
+                      <LineString>
+                        <altitudeMode>relative</altitudeMode>
+                       <coordinates>
+                                        -77.01884,38.97844,0
+                                        -77.019702,38.979178,0
+                                        -77.02109,38.98179,0
+                                        -77.02111,38.98204,0
+                                        -77.02136,38.98256,0
+                                        -77.02145,38.982877,0
+                                        -77.02159,38.983035,0
+                                        -77.02205,38.98339,0
+                                        -77.02299,38.98494,0
+                                        -77.02307,38.98515,0
+                                        -77.02301,38.9858,0
+                                        -77.02361,38.98773,0
+                       </coordinates>
+                      </LineString>
+                    </Placemark>
+
+            <Placemark>
+                      <name>Blue Line</name>
+                      <styleUrl>#blueLine</styleUrl>
+                      <LineString>
+                        <altitudeMode>relative</altitudeMode>
+                       <coordinates>
+            -77.007471,38.896022,0
+            -77.009021,38.89487,0
+            -77.010443,38.893914,0
+            -77.010925,38.893555,0
+            -77.012004,38.892749,0
+            -77.012041,38.89188,0
+            -77.013667,38.891901,0
+            -77.014943,38.891584,0
+            -77.015002,38.891546,0
+            -77.015008,38.891196,0
+            -77.015029,38.890728,0
+            -77.015035,38.890022,0
+            -77.015405,38.890018,0
+                       </coordinates>
+                      </LineString>
+                    </Placemark>
+
+            <Placemark>
+                      <name>Blue Line</name>
+                      <styleUrl>#blueLine</styleUrl>
+                      <LineString>
+                        <altitudeMode>relative</altitudeMode>
+                       <coordinates>
+            -77.00045,38.94705,0
+            -77.00215,38.95118,0
+            -77.00235,38.95133,0
+            -77.00314,38.9515,0
+            -77.00321,38.9516,0
+            -77.00325,38.95183,0
+            -77.00317,38.95223,0
+            -77.00364,38.95263,0
+            -77.00408,38.95288,0
+            -77.00434,38.95321,0
+            -77.00452,38.95351,0
+            -77.00466,38.95425,0
+            -77.00467,38.95552,0
+            -77.004794,38.955609,0
+            -77.005572,38.955442,0
+            -77.00616,38.95533,0
+                       </coordinates>
+                      </LineString>
+                    </Placemark>
+
+            <Placemark>
+                      <name>Blue Line</name>
+                      <styleUrl>#blueLine</styleUrl>
+                      <LineString>
+                        <altitudeMode>relative</altitudeMode>
+                       <coordinates>
+            -77.00952,38.96109,0
+            -77.01082,38.96271,0
+            -77.01121,38.96327,0
+            -77.01151,38.96398,0
+            -77.01259,38.96604,0
+            -77.01368,38.96767,0
+            -77.01484,38.9699,0
+            -77.01399,38.96994,0
+            -77.01409,38.97018,0
+            -77.01517,38.97138,0
+            -77.0159,38.97246,0
+            -77.0162,38.97301,0
+            -77.016022,38.973423,0
+            -77.01574,38.97359,0
+            -77.015158,38.974566,0
+                       </coordinates>
+                      </LineString>
+                    </Placemark>
+
+            <Placemark>
+                      <name>Blue Line</name>
+                      <styleUrl>#blueLine</styleUrl>
+                      <LineString>
+                        <altitudeMode>relative</altitudeMode>
+                       <coordinates>
+            -77.00767,38.897329,0
+            -77.007772,38.897053,0
+            -77.007997,38.896836,0
+            -77.008035,38.896744,0
+            -77.007917,38.896406,0
+            -77.007788,38.896189,0
+            -77.007557,38.89596,0
+                       </coordinates>
+                      </LineString>
+                    </Placemark>
+
+            <Placemark>
+                      <name>Blue Line</name>
+                      <styleUrl>#blueLine</styleUrl>
+                      <LineString>
+                        <altitudeMode>relative</altitudeMode>
+                       <coordinates>
+            -77.005877,38.903775,0
+            -77.004409,38.903792,0
+                       </coordinates>
+                      </LineString>
+                    </Placemark>
+
+    <Placemark>
+            <name>San Francisco Bay Trail</name>
+            <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+            <Point>
+              <coordinates>
+                -122.58441,37.98632,0
+              </coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Sausalito Ferry</name>
+            <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+            <Point>
+              <coordinates>
+                -122.584314149,37.9864773786,0
+              </coordinates>
+            </Point>
+          </Placemark>
+  </Document>
+</kml>
